@@ -1,1 +1,276 @@
+@charset "UTF-8";
+/* CSS Document */
 
+*{
+padding: 0px;
+margin: 0px;
+border: 0px;
+}
+
+body, html
+{
+  height: 100%;
+  font-family: 'Geo', sans-serif;
+  background-color: #282b2d;
+  color: #266fd2;
+  text-decoration: none;
+}
+
+#display_middle
+{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  -ms-transform:translate(-50%,-50%)
+}
+
+#display_container
+{
+  background-image: url("https://manleysystems.github.io/background01.jpg");
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  position:relative;
+  animation:opac 1.8s}@keyframes opac{from{opacity:0} to{opacity:1}
+}
+
+#display_topleft
+{
+  position:absolute;left:1%;top:0;
+  padding:20px;
+  color: #266fd2;
+}
+
+#animate_top
+{
+  width: 20vw;
+  font-size:64px;
+  margin-bottom: 40px;
+  position: relative;
+  margin-left: 40vw;
+  margin-right: 40vw;
+  animation:animatetop 0.8s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}
+}
+
+#border
+{
+  border-top: 1px solid #266fd2;
+  border-bottom: 2px solid #282b2d;
+  margin-left: 38vw;
+  margin-right: 38vw;
+}
+
+#large_center
+{
+  text-align: center;
+  font-family: 'Geo', sans-serif;
+  font-size: 6vw;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #266fd2;
+  text-shadow: 2px 2px #282b2d;
+}
+
+#display_bottomleft
+{
+  position:absolute;left:0;bottom:0;
+  padding:12px 24px
+}
+
+#display_bottomright
+{
+  position:absolute;right:0;bottom:0;
+  padding:12px 24px
+}
+
+#links:link, :visited
+{
+  font-weight: bold;
+  color: #266fd2;
+  text-decoration: none;
+}
+
+/*---------nav begin------------*/
+
+#nav_container
+{
+  position: relative;
+  float: left;
+  height: auto;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #266fd2;
+}
+
+#nav_a
+{
+  position: relative;
+  width: 270px;
+  background-color: #282b2d;
+  margin-bottom: 2px;
+  padding-left: 4px;
+  border: 1px solid #266fd2;
+  transition: .4s ease;
+  animation:animateleft 1s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}
+}
+
+#nav_b
+{
+  position: relative;
+  width: 225px;
+  background-color: #282b2d;
+  margin-bottom: 2px;
+  padding-left: 4px;
+  border: 1px solid #266fd2;
+  transition: .4s ease;
+  animation:animateleft 1.2s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}
+}
+
+#nav_c
+{
+  position: relative;
+  width: 185px;
+  background-color: #282b2d;
+  padding-left: 4px;
+  border: 1px solid #f1a91f;
+  transition: .4s ease;
+  animation:animateleft 1.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}
+}
+
+.overlay
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #266fd2;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .4s ease;
+}
+
+#nav_a:hover .overlay, #nav_b:hover .overlay, #nav_c:hover .overlay
+{
+  height: 100%;
+}
+
+#nav_a:hover, #nav_b:hover, #nav_c:hover
+{
+  border: 1px solid #163f78;
+  transition: .4s ease;
+}
+
+.nav_txt
+{
+  position: relative;
+  z-index: 100;
+  font-size: 30px;
+  color: #266fd2;
+  transition: .4s ease;
+}
+
+.nav_txt:link, :visited
+{
+  text-decoration: none;
+}
+
+
+#nav_a:hover .nav_txt, #nav_b:hover .nav_txt, #nav_c:hover .nav_txt
+{
+  height: 100%;
+  color: #282b2d;
+  transition: .4s ease;
+}
+
+/*---------nav end------------*/
+
+/*---------design begin------------*/
+
+#design_container
+{
+  position: relative;
+  width: auto;
+  font-size: 20px;
+  background-color: #282b2d;
+  color: #266fd2;
+  animation:animateleft 1.8s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}
+}
+
+#links:link, :visited
+{
+  background-color: #282b2d;
+  color: #266fd2;
+  text-decoration: none;
+  margin-right: 1px;
+  transition: .4s ease;
+}
+
+#links:hover
+{
+  background-color: #266fd2;
+  color: #282b2d;
+  transition: .6s ease;
+}
+
+/*---------design end------------*/
+
+/*---------contact begin------------*/
+
+#social_linkedin
+{
+  background-image: url("https://manleysystems.github.io/linkedin.png");
+  background-size: cover;
+  position: relative;
+  float: left;
+  height: 25px;
+  width: 25px;
+  margin-left: 10px;
+  border: 1px solid #266fd2;
+  border-radius: 100%;
+  transition: .5s ease;
+  animation:animatetop 1s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}
+}
+
+#social_twitter
+{
+  background-image: url("https://manleysystems.github.io/twitter.png");
+  background-size: cover;
+  position: relative;
+  float: left;
+  height: 25px;
+  width: 25px;
+  margin-left: 10px;
+  border: 1px solid #266fd2;
+  border-radius: 100%;
+  transition: .5s ease;
+  animation:animatetop .8s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}
+}
+
+#social_email
+{
+  background-image: url("https://manleysystems.github.io/email.png");
+  background-size: cover;
+  position: relative;
+  float: left;
+  height: 25px;
+  width: 25px;
+  margin-left: 10px;
+  border: 1px solid #266fd2;
+  border-radius: 100%;
+  transition: .8s ease;
+  animation:animatetop .6s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}
+}
+
+#social_linkedin:hover, #social_email:hover, #social_twitter:hover
+{
+  background-color: #266fd2;
+  border-color: #232729;
+  transition: .2s ease;
+}
+
+/*---------contact end------------*/
+
+/*--designed and created by Joshua Manley--*/
