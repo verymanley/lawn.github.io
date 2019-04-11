@@ -107,7 +107,7 @@ body, html
 #nav_a
 {
   position: relative;
-  width: 220px;
+  width: 250px;
   background-color: #282b2d;
   margin-bottom: 2px;
   padding-left: 4px;
@@ -119,7 +119,7 @@ body, html
 #nav_b
 {
   position: relative;
-  width: 175px;
+  width: 200px;
   background-color: #282b2d;
   margin-bottom: 2px;
   padding-left: 4px;
@@ -131,7 +131,7 @@ body, html
 #nav_c
 {
   position: relative;
-  width: 135px;
+  width: 160px;
   background-color: #282b2d;
   padding-left: 4px;
   border: 1px solid #009933;
