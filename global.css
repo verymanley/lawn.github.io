@@ -38,7 +38,6 @@ body, html
 #display_topleft
 {
   position:absolute;left:1%;top:0;
-  font-family: 'Geo', sans-serif;
   padding:20px;
   color: #009933;
 }
@@ -65,7 +64,6 @@ body, html
 #large_center
 {
   text-align: center;
-  font-family: 'Alegreya', sans-serif;
   font-size: 6vw;
   font-weight: bold;
   margin-top: 20px;
