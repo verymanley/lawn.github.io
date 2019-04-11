@@ -159,7 +159,7 @@ body, html
 
 #nav_a:hover, #nav_b:hover, #nav_c:hover
 {
-  border: 1px solid #163f78;
+  border: 1px solid #009933;
   transition: .4s ease;
 }
 
@@ -181,7 +181,7 @@ body, html
 #nav_a:hover .nav_txt, #nav_b:hover .nav_txt, #nav_c:hover .nav_txt
 {
   height: 100%;
-  color: #009933;
+  color: #282b2d;
   transition: .4s ease;
 }
 
