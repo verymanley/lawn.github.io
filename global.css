@@ -12,7 +12,7 @@ body, html
   height: 100%;
   font-family: 'Geo', sans-serif;
   background-color: #282b2d;
-  color: #266fd2;
+  color: #009933;
   text-decoration: none;
 }
 
@@ -39,7 +39,7 @@ body, html
 {
   position:absolute;left:1%;top:0;
   padding:20px;
-  color: #266fd2;
+  color: #009933;
 }
 
 #animate_top
@@ -68,7 +68,7 @@ body, html
   font-size: 6vw;
   font-weight: bold;
   margin-top: 20px;
-  color: #266fd2;
+  color: #009933;
   text-shadow: 2px 2px #282b2d;
 }
 
@@ -87,7 +87,7 @@ body, html
 #links:link, :visited
 {
   font-weight: bold;
-  color: #266fd2;
+  color: #009933;
   text-decoration: none;
 }
 
@@ -101,7 +101,7 @@ body, html
   text-align: left;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #266fd2;
+  color: #009933;
 }
 
 #nav_a
