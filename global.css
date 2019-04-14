@@ -53,15 +53,9 @@ box-sizing: border-box;
   text-shadow: 2px 2px #009933;
 }
 
-#display_bottomleft
-{
-  position:absolute;left:0;bottom:0;
-  padding:12px 24px
-}
-
 #display_bottomright
 {
-  position:absolute;right:0;bottom:0;
+  position:fixed;right:0;bottom:0;
   padding:12px 24px
 }
 
