@@ -233,9 +233,9 @@ body, html
   animation:animatetop 1s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}
 }
 
-#social_email
+#social_twitter
 {
-  background-image: url("https://manleysystems.github.io/email.png");
+  background-image: url("https://manleysystems.github.io/twitter.png");
   background-size: cover;
   position: relative;
   float: left;
@@ -248,7 +248,22 @@ body, html
   animation:animatetop .8s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}
 }
 
-#social_linkedin:hover, #social_email:hover
+#social_email
+{
+  background-image: url("https://manleysystems.github.io/email.png");
+  background-size: cover;
+  position: relative;
+  float: left;
+  height: 25px;
+  width: 25px;
+  margin-left: 10px;
+  border: 1px solid #009933;
+  border-radius: 100%;
+  transition: .8s ease;
+  animation:animatetop .6s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}
+}
+
+#social_linkedin:hover, #social_email:hover, #social_twitter:hover
 {
   background-color: #009933;
   border-color: #232729;
