@@ -22,7 +22,6 @@ box-sizing: border-box;
   position:fixed;left:1%;top:0;
   padding:20px;
   color: #009933;
-  z-index: -1;
 }
 
 #animate_top
@@ -288,7 +287,6 @@ h2
 {
   background-image: url("https://wallpaperplay.com/walls/full/7/5/9/231405.jpg");
   height: 110%;
-  z-index: -2;
   /* the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -458,6 +456,7 @@ h2
   overflow: auto;
   padding: 20px;
   background-color: #232729;
+  z-index: 2;
 }
 
 .solutions_body
