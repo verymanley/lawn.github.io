@@ -456,7 +456,6 @@ h2
   overflow: auto;
   padding: 20px;
   background-color: #232729;
-  z-index: 2;
 }
 
 .solutions_body
@@ -474,6 +473,7 @@ h2
   text-align: left;
   padding: 20px;
   background-color: #232729;
+  z-index: 2;
 }
 
 .column_head_b
