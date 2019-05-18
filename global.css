@@ -104,17 +104,6 @@ box-sizing: border-box;
   animation:animateleft 1.2s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}
 }
 
-#nav_c
-{
-  position: relative;
-  width: 206px;
-  background-color: #282b2d;
-  padding-left: 4px;
-  border: 1px solid #009933;
-  transition: .4s ease;
-  animation:animateleft 1.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}
-}
-
 .overlay
 {
   position: absolute;
@@ -128,12 +117,12 @@ box-sizing: border-box;
   transition: .4s ease;
 }
 
-#nav_a:hover .overlay, #nav_b:hover .overlay, #nav_c:hover .overlay
+#nav_a:hover .overlay, #nav_b:hover .overlay
 {
   height: 100%;
 }
 
-#nav_a:hover, #nav_b:hover, #nav_c:hover
+#nav_a:hover, #nav_b:hover
 {
   border: 1px solid #282b2d;
   transition: .4s ease;
@@ -154,7 +143,7 @@ box-sizing: border-box;
 }
 
 
-#nav_a:hover .nav_txt, #nav_b:hover .nav_txt, #nav_c:hover .nav_txt
+#nav_a:hover .nav_txt, #nav_b:hover .nav_txt
 {
   height: 100%;
   color: #282b2d;
