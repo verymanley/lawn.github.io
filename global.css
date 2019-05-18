@@ -83,7 +83,7 @@ box-sizing: border-box;
 #nav_a
 {
   position: relative;
-  width: 245px;
+  width: 290px;
   background-color: #282b2d;
   margin-bottom: 2px;
   padding-left: 4px;
@@ -95,7 +95,7 @@ box-sizing: border-box;
 #nav_b
 {
   position: relative;
-  width: 200px;
+  width: 206px;
   background-color: #282b2d;
   margin-bottom: 2px;
   padding-left: 4px;
@@ -107,7 +107,7 @@ box-sizing: border-box;
 #nav_c
 {
   position: relative;
-  width: 160px;
+  width: 206px;
   background-color: #282b2d;
   padding-left: 4px;
   border: 1px solid #009933;
