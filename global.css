@@ -287,6 +287,79 @@ h2
   animation:opac 1.8s}@keyframes opac{from{opacity:0} to{opacity:1}
 }
 
+#intro_txt_a
+{
+  position: relative;
+  width: 464px;
+  font-size: 68px;
+  background-color: #282b2d;
+  border-left: 1px solid #009933;
+  padding-bottom: 8px;
+  transition: .4s ease;
+  animation:animateright 1.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}
+}
+
+#intro_txt_b
+{
+  position: relative;
+  font-size: 40px;
+  width: 360px;
+  padding-left: 2px;
+  background-color: #282b2d;
+  border-left: 1px solid #009933;
+  transition: .4s ease;
+  animation:animateright 1.8s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}
+}
+
+#intro_txt_c
+{
+  position: relative;
+  font-size: 20px;
+  width: 280px;
+  padding-left: 2px;
+  background-color: #282b2d;
+  border-left: 1px solid #009933;
+  transition: .4s ease;
+  animation:animateright 1s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}
+}
+
+#intro_txt_a:hover, #intro_txt_b:hover, #intro_txt_c:hover
+{
+  color: #282b2d;
+  background: #009933;
+  padding-left: 20px;
+  transition: .2s ease;
+  border-left: 1px solid #282b2d;
+}
+
+#head_logo_img
+{
+  float: right;
+  opacity: .8;
+  width: 200px;
+  height: 200px;
+  margin-top: 40px;
+  margin-right: 40px;
+  transition: .2s ease;
+}
+
+.logo_left
+{
+  width: 50%;
+  float: left;
+}
+
+.logo_right
+{
+  width: 50%;
+  float: right;
+  height: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #009933;
+  border-left: 4px solid #009933;
+}
+
 .arrow_animate
 {
   position: absolute;
