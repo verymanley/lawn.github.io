@@ -261,6 +261,17 @@ h2
   border-bottom: 4px solid #282b2d;
 }
 
+h4
+{
+  transition: .4s ease;
+}
+
+h4:hover
+{
+  color: #f1a91f;
+  transition: .4s ease;
+}
+
 .links
 {
   text-decoration: none;
@@ -456,7 +467,7 @@ h2
   border-bottom: 1px solid #009933;
   overflow: auto;
   padding: 20px;
-  background-color: #232729
+  background-color: #232729;
 }
 
 .column_head_a
@@ -477,18 +488,67 @@ h2
   background-color: #232729;
 }
 
-.column_body
+.solutions_nav_a
 {
+  position: relative;
   float: left;
   width: 25%;
   text-align: center;
   padding: 20px;
   background-color: #282b2d;
+  transition: .4s ease;
+  border: 1px solid #282b2d;
+  animation:animateleft 1s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}
+}
+
+.overlay
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #232729;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .4s ease;
+}
+
+.solutions_nav_a:hover .overlay
+{
+  height: 100%;
+  padding: 20px;
+}
+
+.solutions_nav_a:hover
+{
+  border: 1px solid #282b2d;
+  border-top: 1px solid #009933;
+}
+
+.solutions_nav_txt
+{
+  position: relative;
+  z-index: 100;
+  transition: .4s ease;
+}
+
+.solutions_nav_txt:link, :visited
+{
+  text-decoration: none;
+}
+
+
+.solutions_nav_a:hover .solutions_nav_txt
+{
+  height: 100%;
+  color: #009933;
+  transition: .4s ease;
 }
 
 @media screen and (max-width: 600px)
 {
-  .column_head_a, .column_head_b, .column_body
+  .column_head_a, .column_head_b, .solutions_nav_a
   {
     width: 100%;
   }
