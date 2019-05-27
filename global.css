@@ -501,7 +501,7 @@ h4:hover
   animation:animateleft 1s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}
 }
 
-.overlay
+.solutions_overlay
 {
   position: absolute;
   bottom: 0;
@@ -514,7 +514,7 @@ h4:hover
   transition: .4s ease;
 }
 
-.solutions_nav_a:hover .overlay
+.solutions_nav_a:hover .solutions_overlay
 {
   height: 100%;
   padding: 20px;
