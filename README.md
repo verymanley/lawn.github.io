@@ -1,8 +1,10 @@
-# verymanley.github.io/lawn.github.io/
+# Manley Lawn v1.0
 
-![Status - Unstable](https://img.shields.io/badge/Status-Unstable-red.svg)
+# verymanley.github.io/lawn.github.io
+
+![Status - Stable](https://img.shields.io/badge/Status-Stable-blue.svg)
 ![HTML - v5.0](https://img.shields.io/badge/html-v5.0-blue.svg)
 
-## verymanley.github.io/lawn.github.io/ v0.02
+## manleylawn.com v1.0 [Initial v1 release]
 
 ### Created by Joshua Manley
