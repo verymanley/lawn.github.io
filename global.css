@@ -331,27 +331,12 @@ h4:hover
     padding-bottom: 40px;
   }
 
-  #intro_txt_a
-  {
-    width: 464px;
-  }
-
-  #intro_txt_b
-  {
-    width: 360px;
-  }
-
-  #intro_txt_c
-  {
-    width: 280px;
-  }
-
   #head_logo_img
   {
     transform: scale(.8);
     float: left;
     opacity: .8;
-    margin-left: 5%;
+    margin-left: 10%;
     margin-top: 20%;
   }
 }
