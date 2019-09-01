@@ -177,9 +177,9 @@ h4:hover
 
 .intro_container
 {
-  background-image: url("https://raw.githubusercontent.com/verymanley/lawn.github.io/master/bgimg03.jpg");
+  background-image: url("https://raw.githubusercontent.com/verymanley/lawn.github.io/master/bgimg05.png");
   height: 110%;
-  padding-right: 100px;
+  padding-right: 400px;
   /* the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
