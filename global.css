@@ -76,7 +76,7 @@ box-sizing: border-box;
 
 #links:hover
 {
-  background-color: #009933;
+  background-color: #27ae60;
   color: #282b2d;
   transition: .6s ease;
 }
