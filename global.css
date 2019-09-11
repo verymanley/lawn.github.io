@@ -868,7 +868,7 @@ h4:hover
   position: relative;
 }
 
-.btn
+.btn01
 {
   display: inline-block;
   width: 54px;
@@ -884,22 +884,22 @@ h4:hover
   transition: .6s ease;
 }
 
-.btn:hover
+.btn01:hover
 {
   border: 1px solid #282b2d;
 }
 
-.btn img
+.btn01 img
 {
   transition: 0.2s linear;
 }
 
-.btn:hover img
+.btn01:hover img
 {
   transform: scale(1.1);
 }
 
-.btn::before
+.btn01::before
 {
   content: "";
   position: absolute;
@@ -911,7 +911,7 @@ h4:hover
   top: 90%;
 }
 
-.btn:hover::before
+.btn01:hover::before
 {
   animation: aaa 0.7s 1;
   top: -10%;
