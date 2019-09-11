@@ -165,7 +165,7 @@ h4:hover
 }
 
 .inner a:hover {
-  background-color: #009933;
+  background-color: #27ae60;
   color: #282b2d;
   transition: .4s ease;
 }
@@ -905,7 +905,7 @@ h4:hover
   position: absolute;
   width: 120%;
   height: 120%;
-  background: #009933;
+  background: #27ae60;
   transform: rotate(45deg);
   left: -110%;
   top: 90%;
