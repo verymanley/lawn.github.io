@@ -770,14 +770,6 @@ h4:hover
   margin-bottom: 5%;
 }
 
-.social
-{
-  border-top: 4px solid #282b2d;
-  padding-top: 2%;
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
 .center-con {
     display: flex;
     margin-top: 40px;
@@ -851,20 +843,22 @@ h4:hover
     transform: rotate(225deg);
 }
 
-@media screen and (max-width: 600px)
-{
-  .social_body
-  {
-  }
-}
-
 /*---------footer end------------*/
 
 
 /*---------social begin------------*/
 
+.social
+{
+  border-top: 4px solid #282b2d;
+  padding-top: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
 .social_body
 {
+  border: 4px solid #282b2d;
   position: relative;
 }
 
@@ -934,6 +928,15 @@ h4:hover
   {
     left: -10%;
     top: -10%;
+  }
+}
+
+@media screen and (max-width: 600px)
+{
+  .social
+  {
+    margin-left: 0%;
+    margin-right: 0%;
   }
 }
 
