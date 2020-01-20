@@ -1,4 +1,4 @@
-# Manley Lawn v1.0
+# Manley Lawn Website v1.0
 
 # verymanley.github.io/lawn.github.io
 
