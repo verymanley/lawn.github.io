@@ -355,6 +355,9 @@ h4:hover
 
 .solutions_body
 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
   border-bottom: 1px solid #009933;
   overflow: auto;
   padding: 20px;
@@ -381,6 +384,7 @@ h4:hover
 
 .solutions_nav_a
 {
+  flex-grow: 1;
   position: relative;
   float: left;
   width: 25%;
@@ -442,6 +446,10 @@ h4:hover
   .column_head_a, .column_head_b, .solutions_nav_a
   {
     width: 100%;
+  }
+  .solutions_body
+  {
+    display: block;
   }
 }
 
