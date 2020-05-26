@@ -794,7 +794,8 @@ h4:hover
     border-radius: 100%;
 }
 
-.span01 {
+.span01
+{
     z-index: 999;
     height: 3px;
     margin: 1px;
