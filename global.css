@@ -778,7 +778,8 @@ h4:hover
   margin-bottom: 5%;
 }
 
-.center-con {
+.center-con
+{
     display: flex;
     margin-top: 40px;
     align-items: center;
