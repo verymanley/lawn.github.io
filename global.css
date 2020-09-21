@@ -385,6 +385,7 @@ h4:hover
 .solutions_nav_a
 {
   flex-grow: 1;
+  overflow: hidden;
   position: relative;
   float: left;
   width: 25%;
